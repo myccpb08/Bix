@@ -1,0 +1,16 @@
+structure (ResultInfo) {
+  property (result) {
+    type (Result)
+    min (Required) max (Many)
+  }
+  
+  property (line) {
+    type (Line)
+    min (Required) max (One)
+  }
+  
+  property (station) {
+    type (Station)
+    min (Required) max (One)
+  }
+}

@@ -1,0 +1,5 @@
+train (t-4utcqh71itab534phwsi8zy30) {
+  utterance ("[g:Result] (강남)[v:Station] (2)[v:Line]호선")
+  plan (Y2BhEE2tSMwtyEnVKy5NKk+s1AtKLS7NKWEQRxMuzsgvD8nMTWUQRpPwycxLZRBDEwwuSSzJzM9jYGZgZGACkgxAGgQhAMQHiwIA)
+  last-modified (1560235867924)
+}

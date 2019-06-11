@@ -1,0 +1,3 @@
+text (Station) {
+  description (지하철역명)
+}
