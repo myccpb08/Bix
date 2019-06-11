@@ -1,0 +1,30 @@
+action (showTime) {
+  description (선택한 역에 지하철 정보를 가져옵니다)
+  type(Search)
+  
+  collect {
+    input (station) {
+      type (Station)
+      min (Required) max (One)
+    }
+    
+    input (line) {
+      type (Line)
+      min (Required) max(One)
+    }
+    
+  }
+  output (ResultInfo){
+    throws{
+      unknown-error{
+        on-catch{
+          halt {
+            dialog {
+              template ("문제생겼대요 똑바로하세요")
+            }
+          }
+        }
+      }
+    }
+  }
+}

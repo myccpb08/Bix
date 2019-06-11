@@ -1,0 +1,5 @@
+train (t-tpwx1dvoq078kguweihmcef0d) {
+  utterance ("[g:ResultInfo] (약수)[v:Station] (3)[v:Line]호선")
+  plan (Y2BhkEytSMwtyEnVKy5NKk+s1AtKLS7NKfHMS8tnEEeTKs7ILw/JzE1lEEaT8MnMS2UQQxMMLkksyczPY2BmYGRgApIMQBoEIQDEB4sCAA==)
+  last-modified (1560240613789)
+}
