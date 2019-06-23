@@ -1,14 +1,18 @@
 module.exports.function = function subway (station, line) {
+  require('secret');
   const config = require('config');
   const fail = require('fail');
   const http = require('http');
   const console = require('console');
   const baseURL = config.get("baseUrl");
   
+  
+  
   let response = null;
   let line = String(line)
-
-  url = baseURL + encodeURI(String(station));
+  const key = secret.get('key');
+  url = baseURL + key + '/json/realtimeStationArrival/0/10/' + encodeURI(String(station));
+  console.log(url)
   
   response = http.getUrl(url, {format:"json", cacheTime:0, returnHeaders:true});
   
