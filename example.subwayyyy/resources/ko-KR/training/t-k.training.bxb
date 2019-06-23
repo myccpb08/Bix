@@ -1,3 +1,8 @@
+train (t-k6db4o4jn3y194frcu1de66hc) {
+  utterance ("[g:ResultInfo] (양재)[v:Station] (신분당선)[v:Line] 정보 보여줘")
+  plan (Y2BhkC4uTSpPrNSDUECgF5RaXJpT4pmXls8giSFZnJFfHpKZm8ogiiHlk5mXyiCBIRxckliSmZ/HwMzAyMAEJBmANAhCAIgPFgUA)
+  last-modified (1561276151230)
+}
 train (t-kuuplxzpyc71nh228inl09z6k) {
   utterance ("[g:ResultInfo] (삼각지)[v:Station] (6호선)[v:Line]")
   plan (Y2BhkC4uTSpPrNSDUECgF5RaXJpT4pmXls8giSFZnJFfHpKZm8ogiiHlk5mXyiCBIRxckliSmZ/HwMzAyMAEJBmANAhCAIgPFgUA)

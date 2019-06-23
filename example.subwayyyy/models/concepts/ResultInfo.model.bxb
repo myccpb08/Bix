@@ -19,10 +19,7 @@ structure (ResultInfo) {
     min (Optional) max (Many)
   }
   
-  property (역처리?) {
-    type (yeok)
-    min (Optional) max (One)
-  }
+
   
   
 }

@@ -6,11 +6,16 @@ module.exports.function = function subway (station, line) {
   const console = require('console');
   const baseURL = config.get("baseUrl");
   
-  
-  
   let response = null;
   let line = String(line)
   const key = secret.get('key');
+  
+  station = String(station);
+  check = station.length-1
+  if (station[check] == '역'){
+    station = station.slice(0,check)
+  }
+  
   url = baseURL + key + '/json/realtimeStationArrival/0/20/' + encodeURI(String(station));
   console.log(url)
   

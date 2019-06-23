@@ -1,0 +1,5 @@
+train (t-1hlyvur5c25r3nwut15jcsv6w) {
+  utterance ("[g:ResultInfo] (양재)[v:Station] (신분당선)[v:Line] 언제 와")
+  plan (Y2BhkC4uTSpPrNSDUECgF5RaXJpT4pmXls8giSFZnJFfHpKZm8ogiiHlk5mXyiCBIRxckliSmZ/HwMzAyMAEJBmANAhCAIgPFgUA)
+  last-modified (1561276207113)
+}
