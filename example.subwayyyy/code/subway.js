@@ -11,7 +11,7 @@ module.exports.function = function subway (station, line) {
   let response = null;
   let line = String(line)
   const key = secret.get('key');
-  url = baseURL + key + '/json/realtimeStationArrival/0/10/' + encodeURI(String(station));
+  url = baseURL + key + '/json/realtimeStationArrival/0/20/' + encodeURI(String(station));
   console.log(url)
   
   response = http.getUrl(url, {format:"json", cacheTime:0, returnHeaders:true});
@@ -19,9 +19,9 @@ module.exports.function = function subway (station, line) {
   uptime = [];
   downtime = [];
   
-  subwayinfo = {'1':'1001', '2':'1002','3':'1003','4':'1004', '5':'1005',
-                '6':'1006', '7':'1007', '8':'1008','9':'1009','신분당':'1077',
-                '분당':'1075','경의중앙선':'1063','경춘선':'1067','공항철도':'1065','수인':'1071',}
+  subwayinfo = {'1호선':'1001', '2호선':'1002','3호선':'1003','4호선':'1004', '5호선':'1005',
+                '6호선':'1006', '7호선':'1007', '8호선':'1008','9호선':'1009','신분당선':'1077',
+                '분당선':'1075','경의중앙선':'1063','경춘선':'1067','공항철도':'1065','수인선':'1071',}
   
   let line_color = subwayinfo[line]  // 사용자가 찾고자 하는 호선
 
@@ -34,6 +34,7 @@ module.exports.function = function subway (station, line) {
       
       if (each_train.updnLine == '상행' || each_train.updnLine == '외선' ){
         if (uptime.length == 0){
+          uptime.push(each_train.trainLineNm)
           uptime.push('내리는문: ' + each_train.subwayHeading)
         }
         uptime.push(each_time)
@@ -41,6 +42,7 @@ module.exports.function = function subway (station, line) {
       }
       else {
         if (downtime.length == 0){
+          downtime.push(each_train.trainLineNm)
           downtime.push('내리는문: ' + each_train.subwayHeading)
         }
         downtime.push(each_time)
@@ -52,6 +54,6 @@ module.exports.function = function subway (station, line) {
     station : station, 
     line : line,
     상행 : uptime,
-    하행 : downtime
+    하행 : downtime,
 }
 }

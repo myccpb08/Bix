@@ -1,5 +1,10 @@
+train (t-tkcd0ujhj2to77ke60xrkce6x) {
+  utterance ("[g:ResultInfo] (사당)[v:Station] (2호선)[v:Line]")
+  plan (Y2BhkC4uTSpPrNSDUECgF5RaXJpT4pmXls8giSFZnJFfHpKZm8ogiiHlk5mXyiCBIRxckliSmZ/HwMzAyMAEJBmANAhCAIgPFgUA)
+  last-modified (1561270415749)
+}
 train (t-tpwx1dvoq078kguweihmcef0d) {
-  utterance ("[g:ResultInfo] (약수)[v:Station] (3)[v:Line]호선")
-  plan (Y2BhkEytSMwtyEnVKy5NKk+s1AtKLS7NKfHMS8tnEEeTKs7ILw/JzE1lEEaT8MnMS2UQQxMMLkksyczPY2BmYGRgApIMQBoEIQDEB4sCAA==)
-  last-modified (1560240613789)
+  utterance ("[g:ResultInfo] (약수)[v:Station] (3호선)[v:Line]")
+  plan (Y2BhkC4uTSpPrNSDUECgF5RaXJpT4pmXls8giSFZnJFfHpKZm8ogiiHlk5mXyiCBIRxckliSmZ/HwMzAyMAEJBmANAhCAIgPFgUA)
+  last-modified (1561270442579)
 }

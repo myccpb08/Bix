@@ -2,5 +2,5 @@ dialog (Result) {
   match {
     ResultInfo (resultinfo)
   }
-  template("${value(resultinfo.station)}역 ${value(resultinfo.line)}호선 결과입니다")
+  template("${value(resultinfo.station)}역 ${value(resultinfo.line)} 결과입니다")
 }
