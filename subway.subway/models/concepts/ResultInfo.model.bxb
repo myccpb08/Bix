@@ -29,4 +29,8 @@ structure (ResultInfo) {
     min (Optional) max (Many)
   }
   
+   property (ox) {
+    type (ox)
+    min (Optional) max (Many)
+  }
 }

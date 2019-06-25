@@ -116,17 +116,22 @@ module.exports.function = function subway (station, line) {
   
   for (var index in response.parsed.realtimeArrivalList){
     let each_train = response.parsed.realtimeArrivalList[index] // 각 열차 정보
-    
+
     // 첫번째 열차정보만으로 환승호선 알 수 있다 >> 환승호선이 존재하면
     if (index==0){
       transline = []
+      var idx = 100
       temp = response.parsed.realtimeArrivalList[0].subwayList // 환승정보 있는지 없는지
       if (temp.length > 4){     
         howmany = (temp.length + 1)/5  // 환승호선 수
         for (var trans = 0 ; trans < howmany ; trans++){  // 환승호선 수만큼 반복문 돌리기
           trans_subway = temp.slice(5*trans, 5*(trans+1)-1)
           transline.push(subwayinfo2[trans_subway])  // 환승라인을 리스트에 담는다
-          console.log(subwayinfo2[trans_subway])
+          
+          // 지금 보고 있는 호선은 보여 주지 않기 위해
+          if (trans_subway == line_color){
+            idx = trans
+          }
         }
        }
     }
@@ -162,14 +167,15 @@ module.exports.function = function subway (station, line) {
       } 
       }
     }  
-  
+  console.log(idx)
   result = {
     station : station, 
     line : line,
     photo_url : line_photo_url,
     상행 : uptime,
     하행 : downtime,
-    환승 : transline
+    환승 : transline,
+    ox : idx
     
 }
   console.log(result)

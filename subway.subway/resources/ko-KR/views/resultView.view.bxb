@@ -83,22 +83,28 @@ result-view {
   
   //
   conversation-drivers{
-
+    
+    if (resultinfo.ox != 0){
     conversation-driver{
       template ("#{value(resultinfo.환승[0])}도 볼래?")
    }
+    }
+    
+    if (resultinfo.ox != 1){
     conversation-driver{
       template ("#{value(resultinfo.환승[1])}도 볼래?")
-   }
+   }}
     
+    if (resultinfo.ox != 2){
     conversation-driver{
       template ("#{value(resultinfo.환승[2])}도 볼래?")
-   }
+   }}
     
+    if (resultinfo.ox != 3){
     conversation-driver{
       template ("#{value(resultinfo.환승[3])}도 볼래?")
-   }
-    
+   }}
+
   }
   
   
