@@ -83,30 +83,22 @@ result-view {
   
   //
   conversation-drivers{
-       
-    //
+
     conversation-driver{
-      //template ("#{value(resultinfo.station)}역, 다른 호선도 볼래?")
       template ("#{value(resultinfo.환승[0])}도 볼래?")
-     // template ("2호선 #{value(resultinfo.station)}역도 볼래?")
    }
     conversation-driver{
-      //template ("#{value(resultinfo.station)}역, 다른 호선도 볼래?")
       template ("#{value(resultinfo.환승[1])}도 볼래?")
-     // template ("2호선 #{value(resultinfo.station)}역도 볼래?")
    }
     
     conversation-driver{
-      //template ("#{value(resultinfo.station)}역, 다른 호선도 볼래?")
       template ("#{value(resultinfo.환승[2])}도 볼래?")
-     // template ("2호선 #{value(resultinfo.station)}역도 볼래?")
    }
     
     conversation-driver{
-      //template ("#{value(resultinfo.station)}역, 다른 호선도 볼래?")
       template ("#{value(resultinfo.환승[3])}도 볼래?")
-     // template ("2호선 #{value(resultinfo.station)}역도 볼래?")
    }
+    
   }
   
   

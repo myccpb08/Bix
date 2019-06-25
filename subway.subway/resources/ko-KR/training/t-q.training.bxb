@@ -6,5 +6,5 @@ train (t-q5s4ft60f3o060z8wooriprb4) {
 train (t-q92nr611tpkjpdz1lbjydufo1) {
   utterance ("[g:ResultInfo] (2호선)[v:Line]도 볼래?")
   plan (Y2BhkCguTSpPrNSDUkGpxaU5JZ55afkMYqgyxRn55SGZuakMQqjiPpl5qQyiqGLBJYklmfl5DMwMjAxMQJIBSIMgBDBBMAA=)
-  last-modified (1561430318914)
+  last-modified (1561431791948)
 }
