@@ -1,0 +1,20 @@
+train (t-77vvptbj2uztu7fubr0vihzw1) {
+  utterance ("[g:ResultInfo] (몽촌토성역)[v:Station]에 (8호선)[v:Line] 열차들 언제 들어와?")
+  plan (Y2BhkC4uTSpPrNSDUECgF5RaXJpT4pmXls8giSFZnJFfHpKZm8ogiiHlk5mXyiCBIRxckliSmZ/HwMzAyMAEJBmANAhCAIgPFgUA)
+  last-modified (1561344119490)
+}
+train (t-7lnjbiw0partuhs53215h9ee9) {
+  utterance ("[g:ResultInfo] (양재시민의숲)[v:Station] (신분당선)[v:Line]")
+  plan (Y2BhkC4uTSpPrNSDUECgF5RaXJpT4pmXls8giSFZnJFfHpKZm8ogiiHlk5mXyiCBIRxckliSmZ/HwMzAyMAEJBmANAhCAIgPFgUA)
+  last-modified (1561341629785)
+}
+train (t-7syngapedxfax1cazowy9x2pz) {
+  utterance ("[g:ResultInfo] (남한산성이부역)[v:Station]에 (8호선)[v:Line] 열차 언제 와?")
+  plan (Y2BhkC4uTSpPrNSDUECgF5RaXJpT4pmXls8giSFZnJFfHpKZm8ogiiHlk5mXyiCBIRxckliSmZ/HwMzAyMAEJBmANAhCAIgPFgUA)
+  last-modified (1561344184430)
+}
+train (t-7z3wscqnekaifo6zph3gygk0j) {
+  utterance ("[g:ResultInfo] (3호선)[v:Line] (종로3가역)[v:Station]에 도착하는 지하철 정보 알려줘")
+  plan (Y2BhkC4uTSpPrNSDUECgF5RaXJpT4pmXls8giSFZnJFfHpKZm8ogiiHlk5mXyiCBIRxckliSmZ/HwMzAyMAEJBmANAhCAIgPFgUA)
+  last-modified (1561342963112)
+}

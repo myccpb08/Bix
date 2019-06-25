@@ -1,0 +1,10 @@
+train (t-j1f2ohg280s3e0d62cih8kp90) {
+  utterance ("[g:ResultInfo] (석촌)[v:Station] (8호선)[v:Line]")
+  plan (Y2BhkC4uTSpPrNSDUECgF5RaXJpT4pmXls8giSFZnJFfHpKZm8ogiiHlk5mXyiCBIRxckliSmZ/HwMzAyMAEJBmANAhCAIgPFgUA)
+  last-modified (1561270080106)
+}
+train (t-ji0tukyq1koc0nikdzrzxdvti) {
+  utterance ("[g:ResultInfo] (영등포 시장)[v:Station] (5호선)[v:Line] 도착정보 좀 알려줘")
+  plan (Y2BhkC4uTSpPrNSDUECgF5RaXJpT4pmXls8giSFZnJFfHpKZm8ogiiHlk5mXyiCBIRxckliSmZ/HwMzAyMAEJBmANAhCAIgPFgUA)
+  last-modified (1561343381893)
+}

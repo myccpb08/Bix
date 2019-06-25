@@ -1,5 +1,0 @@
-train (t-24z5zps8898puz0usmoz1q0j3) {
-  utterance ("[g:ResultInfo] (서울숲)[v:Station] (분당선)[v:Line]")
-  plan (Y2BhkC4uTSpPrNSDUECgF5RaXJpT4pmXls8giSFZnJFfHpKZm8ogiiHlk5mXyiCBIRxckliSmZ/HwMzAyMAEJBmANAhCAIgPFgUA)
-  last-modified (1561270365726)
-}

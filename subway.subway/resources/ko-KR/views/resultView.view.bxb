@@ -1,0 +1,113 @@
+result-view {
+  match {
+    ResultInfo (resultinfo)
+  }
+
+  message {     
+    template ("요청하신 정보를 보여드릴게요")
+  }
+ 
+  render {
+    layout {
+      section {
+        content {
+          cell-card {
+            slot1 {
+              
+              image {
+                url ("images/#{value(resultinfo.photo_url)}")
+                shape (Square)
+              }
+            }
+            slot2 {
+              content {
+                order (PrimarySecondary)
+                primary ("#{value(resultinfo.station)}역")
+              }
+            }
+          }
+        }
+      }
+      section {
+        title {
+          template ("#{value(resultinfo.line)} 상행 정보")
+        }
+        content {        
+          for-each (resultinfo.상행) {
+            as (uptime) {
+              hbox {
+                content {
+                  vbox {
+                    content {
+                      single-line {
+                        text {
+                          value ("#{value(uptime)}")
+                        }
+                      }
+                      
+                    }
+                  }
+              }
+            }
+          }
+        }
+          }
+            }
+      section {
+          title {
+            template ("#{value(resultinfo.line)} 하행 정보")
+                }
+        content {
+          
+          for-each (resultinfo.하행) {
+            as (downtime) {
+              hbox {
+                content {
+                    vbox {
+                      content {
+                        single-line {
+                          text {
+                          value ("#{value(downtime)}")
+                                }
+                               }
+                            }
+                        }
+                      }
+                   }
+                }
+             }
+          }
+       }
+    }
+  }
+  
+  //
+  conversation-drivers{
+       
+    //
+    conversation-driver{
+      //template ("#{value(resultinfo.station)}역, 다른 호선도 볼래?")
+      template ("#{value(resultinfo.환승[0])}도 볼래?")
+     // template ("2호선 #{value(resultinfo.station)}역도 볼래?")
+   }
+    conversation-driver{
+      //template ("#{value(resultinfo.station)}역, 다른 호선도 볼래?")
+      template ("#{value(resultinfo.환승[1])}도 볼래?")
+     // template ("2호선 #{value(resultinfo.station)}역도 볼래?")
+   }
+    
+    conversation-driver{
+      //template ("#{value(resultinfo.station)}역, 다른 호선도 볼래?")
+      template ("#{value(resultinfo.환승[2])}도 볼래?")
+     // template ("2호선 #{value(resultinfo.station)}역도 볼래?")
+   }
+    
+    conversation-driver{
+      //template ("#{value(resultinfo.station)}역, 다른 호선도 볼래?")
+      template ("#{value(resultinfo.환승[3])}도 볼래?")
+     // template ("2호선 #{value(resultinfo.station)}역도 볼래?")
+   }
+  }
+  
+  
+}

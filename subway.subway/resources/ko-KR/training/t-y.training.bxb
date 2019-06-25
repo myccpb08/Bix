@@ -1,0 +1,10 @@
+train (t-ybje2wvdxdwgygb4vgluvapwb) {
+  utterance ("[g:ResultInfo] (강동구민회관앞)[v:Station] (5호선)[v:Line] 열차 정보좀")
+  plan (Y2BhkC4uTSpPrNSDUECgF5RaXJpT4pmXls8giSFZnJFfHpKZm8ogiiHlk5mXyiCBIRxckliSmZ/HwMzAyMAEJBmANAhCAIgPFgUA)
+  last-modified (1561343615665)
+}
+train (t-yh28rra6828qzsuuusp1208jq) {
+  utterance ("[g:ResultInfo] (디지털 미디어시티)[v:Station] (경의선)[v:Line] 내놔")
+  plan (Y2BhkC4uTSpPrNSDUECgF5RaXJpT4pmXls8giSFZnJFfHpKZm8ogiiHlk5mXyiCBIRxckliSmZ/HwMzAyMAEJBmANAhCAIgPFgUA)
+  last-modified (1561341574088)
+}

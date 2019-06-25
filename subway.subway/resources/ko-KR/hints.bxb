@@ -1,0 +1,7 @@
+hints {
+  uncategorized {
+    utterance (사당역 2호선 지하철 도착 정보 알려줘)
+    utterance (8호선 몽촌토성역에 지하철 언제 도착해?)
+    utterance (6호선 삼각지역 빨리 알려줘)
+  }
+}

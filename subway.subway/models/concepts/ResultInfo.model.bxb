@@ -1,0 +1,32 @@
+structure (ResultInfo) {
+  property (line) {
+    type (Line)
+    min (Required) max (One)
+  }
+  
+  property (station) {
+    type (Station)
+    min (Required) max (One)
+  }
+  
+  property (상행) {
+    type (Up)
+    min (Optional) max (Many)
+  }
+  
+  property (하행) {
+    type (Down)
+    min (Optional) max (Many)
+  }
+  
+  property (photo_url) {
+    type(Photo)
+    min (Required) max (One)
+  }
+  
+   property (환승) {
+    type (Hwanseung)
+    min (Optional) max (Many)
+  }
+  
+}

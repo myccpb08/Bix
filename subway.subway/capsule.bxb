@@ -1,0 +1,21 @@
+capsule {
+  id (subway.subway)
+  version (0.1.0)
+  format (3)
+  targets {
+    target (bixby-mobile-ko-KR)
+    target (bixby-mobile-en-US){enabled (false)}
+  }
+  runtime-flags {
+    concepts-inherit-super-type-features
+    modern-prompt-rejection
+    support-halt-effect-in-computed-inputs
+  }
+  capsule-imports {
+    import (viv.entity) { version(3.18.11) as (entity) }
+    import (viv.core){ as (core) version-from (entity)}
+  }
+  store-sections {
+    section (TravelAndTransportation)
+  }
+}

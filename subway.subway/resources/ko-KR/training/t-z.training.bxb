@@ -1,0 +1,30 @@
+train (t-z052xyqsbwqdlvro0sfrubqeg) {
+  utterance ("[g:ResultInfo] (동대문 역사 문화 공원역)[v:Station] (2호선)[v:Line] 보여줘")
+  plan (Y2BhkC4uTSpPrNSDUECgF5RaXJpT4pmXls8giSFZnJFfHpKZm8ogiiHlk5mXyiCBIRxckliSmZ/HwMzAyMAEJBmANAhCAIgPFgUA)
+  last-modified (1561340858357)
+}
+train (t-za3clqysy7wsj7pykwwtbes9l) {
+  utterance ("[g:ResultInfo] (압구정 로데오)[v:Station]에 (분당선)[v:Line] 열차")
+  plan (Y2BhkC4uTSpPrNSDUECgF5RaXJpT4pmXls8giSFZnJFfHpKZm8ogiiHlk5mXyiCBIRxckliSmZ/HwMzAyMAEJBmANAhCAIgPFgUA)
+  last-modified (1561344314130)
+}
+train (t-zbznth6vmbn66i657bc1fe1bn) {
+  utterance ("[g:ResultInfo] (2호선)[v:Line] (신정네거리)[v:Station] 열차 언제 도착해?")
+  plan (Y2BhkC4uTSpPrNSDUECgF5RaXJpT4pmXls8giSFZnJFfHpKZm8ogiiHlk5mXyiCBIRxckliSmZ/HwMzAyMAEJBmANAhCAIgPFgUA)
+  last-modified (1561342638562)
+}
+train (t-zlhlaleeqfv605n9iwuu9aj6a) {
+  utterance ("[g:ResultInfo] (올림픽공원)[v:Station] (5호선)[v:Line] 지하철 언제오는지 알려줘")
+  plan (Y2BhkC4uTSpPrNSDUECgF5RaXJpT4pmXls8giSFZnJFfHpKZm8ogiiHlk5mXyiCBIRxckliSmZ/HwMzAyMAEJBmANAhCAIgPFgUA)
+  last-modified (1561343563566)
+}
+train (t-znk3f69wo5jkr4ud4gxow8hbc) {
+  utterance ("[g:ResultInfo] (고속터미널역)[v:Station] (3호선)[v:Line]에 도착하려는 지하철 정보 알려줘")
+  plan (Y2BhkC4uTSpPrNSDUECgF5RaXJpT4pmXls8giSFZnJFfHpKZm8ogiiHlk5mXyiCBIRxckliSmZ/HwMzAyMAEJBmANAhCAIgPFgUA)
+  last-modified (1561343089065)
+}
+train (t-ztgwvyfu0elhs4u56bd5h1adp) {
+  utterance ("[g:ResultInfo] (7호선)[v:Line] (광명사거리역)[v:Station]에 지하철 언제오지?")
+  plan (Y2BhkC4uTSpPrNSDUECgF5RaXJpT4pmXls8giSFZnJFfHpKZm8ogiiHlk5mXyiCBIRxckliSmZ/HwMzAyMAEJBmANAhCAIgPFgUA)
+  last-modified (1561344075836)
+}

@@ -1,0 +1,10 @@
+train (t-wl73skn6ys9ygn53r9gvmtfhq) {
+  utterance ("[g:ResultInfo] (김포공항)[v:Station] (5호선)[v:Line]에 기차 언제와?")
+  plan (Y2BhkC4uTSpPrNSDUECgF5RaXJpT4pmXls8giSFZnJFfHpKZm8ogiiHlk5mXyiCBIRxckliSmZ/HwMzAyMAEJBmANAhCAIgPFgUA)
+  last-modified (1561343261603)
+}
+train (t-wplvsmt1b8cygh2yub0jut1oh) {
+  utterance ("[g:ResultInfo] (굽은다리역)[v:Station] (5호선)[v:Line] 도착 정보 좀 알려줘")
+  plan (Y2BhkC4uTSpPrNSDUECgF5RaXJpT4pmXls8giSFZnJFfHpKZm8ogiiHlk5mXyiCBIRxckliSmZ/HwMzAyMAEJBmANAhCAIgPFgUA)
+  last-modified (1561343499543)
+}

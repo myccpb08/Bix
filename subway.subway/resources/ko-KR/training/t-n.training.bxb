@@ -1,0 +1,10 @@
+train (t-n584w9c9zvpjk8ugmav1g5f4o) {
+  utterance ("[g:ResultInfo] (동대입구)[v:Station]에 (3호선)[v:Line] 열차 언제오지?")
+  plan (Y2BhkC4uTSpPrNSDUECgF5RaXJpT4pmXls8giSFZnJFfHpKZm8ogiiHlk5mXyiCBIRxckliSmZ/HwMzAyMAEJBmANAhCAIgPFgUA)
+  last-modified (1561343211728)
+}
+train (t-nip67tmhmpahq60xkcmlajxf7) {
+  utterance ("[g:ResultInfo] (동두천중앙역)[v:Station] (1호선)[v:Line] 도착정보 알려줘")
+  plan (Y2BhkC4uTSpPrNSDUECgF5RaXJpT4pmXls8giSFZnJFfHpKZm8ogiiHlk5mXyiCBIRxckliSmZ/HwMzAyMAEJBmANAhCAIgPFgUA)
+  last-modified (1561340707296)
+}

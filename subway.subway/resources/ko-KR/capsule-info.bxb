@@ -1,0 +1,17 @@
+description {
+  displayName (지하철도착정보알리미)
+  companyName (마이구미)
+  iconUrl (/images/subway.png)
+  description ("지하철 도착정보 알리미는 여러분이 궁금한 지하철역의 열차 도착 정보를 알려드립니다")
+  websiteUrl (https://example.com/)
+  termsUrl (https://example.com/terms-of-use/)
+  search-keywords {
+    keyword(지하철 정보)
+    keyword(지하철 도착)
+  }
+  dispatch-name (지하철알리미)
+  dispatch-aliases {
+    alias (지하철도착정보)
+    alias (지하철알림이)
+  }
+}

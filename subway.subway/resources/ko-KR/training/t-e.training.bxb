@@ -1,0 +1,20 @@
+train (t-egx0nsy67qe1uohh3lsdvegiv) {
+  utterance ("[g:ResultInfo] (1호선)[v:Line] (종로5가)[v:Station] 도착 정보 알려줭")
+  plan (Y2BhkC4uTSpPrNSDUECgF5RaXJpT4pmXls8giSFZnJFfHpKZm8ogiiHlk5mXyiCBIRxckliSmZ/HwMzAyMAEJBmANAhCAIgPFgUA)
+  last-modified (1561341936809)
+}
+train (t-enw8biw70ynpwrmftemwac2ra) {
+  utterance ("[g:ResultInfo] (노량진)[v:Station] (9호선)[v:Line]")
+  plan (Y2BhkC4uTSpPrNSDUECgF5RaXJpT4pmXls8giSFZnJFfHpKZm8ogiiHlk5mXyiCBIRxckliSmZ/HwMzAyMAEJBmANAhCAIgPFgUA)
+  last-modified (1561270138268)
+}
+train (t-eny7hv0pmht5jh5rk6ueh7nx1) {
+  utterance ("[g:ResultInfo] (양재)[v:Station] (신분당선)[v:Line]")
+  plan (Y2BhkC4uTSpPrNSDUECgF5RaXJpT4pmXls8giSFZnJFfHpKZm8ogiiHlk5mXyiCBIRxckliSmZ/HwMzAyMAEJBmANAhCAIgPFgUA)
+  last-modified (1561270611974)
+}
+train (t-etfsdk7uskym7z5epw31vm24c) {
+  utterance ("[g:ResultInfo] (신촌)[v:Station] (경의선)[v:Line]")
+  plan (Y2BhkC4uTSpPrNSDUECgF5RaXJpT4pmXls8giSFZnJFfHpKZm8ogiiHlk5mXyiCBIRxckliSmZ/HwMzAyMAEJBmANAhCAIgPFgUA)
+  last-modified (1561357200671)
+}

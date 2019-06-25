@@ -1,5 +1,0 @@
-train (t-bjaupxkufhts13vrdj0d1gy7b) {
-  utterance ("[g:ResultInfo] (시청)[v:Station] (1호선)[v:Line]")
-  plan (Y2BhkC4uTSpPrNSDUECgF5RaXJpT4pmXls8giSFZnJFfHpKZm8ogiiHlk5mXyiCBIRxckliSmZ/HwMzAyMAEJBmANAhCAIgPFgUA)
-  last-modified (1561270525279)
-}

@@ -1,0 +1,10 @@
+train (t-g8ups0yqldk0ejbecdpzwrl89) {
+  utterance ("[g:ResultInfo] (가산디지털단지)[v:Station] (7호선)[v:Line] 알려달라")
+  plan (Y2BhkC4uTSpPrNSDUECgF5RaXJpT4pmXls8giSFZnJFfHpKZm8ogiiHlk5mXyiCBIRxckliSmZ/HwMzAyMAEJBmANAhCAIgPFgUA)
+  last-modified (1561340898184)
+}
+train (t-gy3kskrn8mv9sttn563dwo66u) {
+  utterance ("[g:ResultInfo] (을지로 3가)[v:Station] (3호선)[v:Line] 도착 정보는?")
+  plan (Y2BhkC4uTSpPrNSDUECgF5RaXJpT4pmXls8giSFZnJFfHpKZm8ogiiHlk5mXyiCBIRxckliSmZ/HwMzAyMAEJBmANAhCAIgPFgUA)
+  last-modified (1561341161307)
+}

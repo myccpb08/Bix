@@ -1,0 +1,15 @@
+train (t-24tz8vxqbaaoa0harlg7a7mtd) {
+  utterance ("[g:ResultInfo] (6호선)[v:Line] (버티고개역)[v:Station] 정보 좀")
+  plan (Y2BhkC4uTSpPrNSDUECgF5RaXJpT4pmXls8giSFZnJFfHpKZm8ogiiHlk5mXyiCBIRxckliSmZ/HwMzAyMAEJBmANAhCAIgPFgUA)
+  last-modified (1561343789937)
+}
+train (t-24z5zps8898puz0usmoz1q0j3) {
+  utterance ("[g:ResultInfo] (서울숲)[v:Station] (분당선)[v:Line]")
+  plan (Y2BhkC4uTSpPrNSDUECgF5RaXJpT4pmXls8giSFZnJFfHpKZm8ogiiHlk5mXyiCBIRxckliSmZ/HwMzAyMAEJBmANAhCAIgPFgUA)
+  last-modified (1561270365726)
+}
+train (t-27tp66ctjm7kzbdwjzivowxz5) {
+  utterance ("[g:ResultInfo] (7호선)[v:Line] (장승배기)[v:Station]에 기차 언제와?")
+  plan (Y2BhkC4uTSpPrNSDUECgF5RaXJpT4pmXls8giSFZnJFfHpKZm8ogiiHlk5mXyiCBIRxckliSmZ/HwMzAyMAEJBmANAhCAIgPFgUA)
+  last-modified (1561343902131)
+}

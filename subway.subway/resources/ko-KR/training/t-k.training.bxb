@@ -1,0 +1,15 @@
+train (t-k0ucz3bq4xgykwawq8o575mz3) {
+  utterance ("[g:ResultInfo] (공항철도)[v:Line] (공항화물청사)[v:Station]")
+  plan (Y2BhkC4uTSpPrNSDUECgF5RaXJpT4pmXls8giSFZnJFfHpKZm8ogiiHlk5mXyiCBIRxckliSmZ/HwMzAyMAEJBmANAhCAIgPFgUA)
+  last-modified (1561344371727)
+}
+train (t-kuuplxzpyc71nh228inl09z6k) {
+  utterance ("[g:ResultInfo] (삼각지)[v:Station] (6호선)[v:Line]")
+  plan (Y2BhkC4uTSpPrNSDUECgF5RaXJpT4pmXls8giSFZnJFfHpKZm8ogiiHlk5mXyiCBIRxckliSmZ/HwMzAyMAEJBmANAhCAIgPFgUA)
+  last-modified (1561269931909)
+}
+train (t-kzxwts8poyc98fx2mdavz7h2o) {
+  utterance ("[g:ResultInfo] (2호선)[v:Line] (동대문운동장역)[v:Station]에 지하철 언제와?")
+  plan (Y2BhkC4uTSpPrNSDUECgF5RaXJpT4pmXls8giSFZnJFfHpKZm8ogiiHlk5mXyiCBIRxckliSmZ/HwMzAyMAEJBmANAhCAIgPFgUA)
+  last-modified (1561342170735)
+}

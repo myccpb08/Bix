@@ -1,0 +1,5 @@
+train (t-s4u7bmi2pmge7zslf8rxm1by4) {
+  utterance ("[g:ResultInfo] (7호선)[v:Line] (어린이 대공원역)[v:Station]에 열차 언제와?")
+  plan (Y2BhkC4uTSpPrNSDUECgF5RaXJpT4pmXls8giSFZnJFfHpKZm8ogiiHlk5mXyiCBIRxckliSmZ/HwMzAyMAEJBmANAhCAIgPFgUA)
+  last-modified (1561344000326)
+}

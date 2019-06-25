@@ -1,0 +1,10 @@
+train (t-dfodxplyytsx3wrm7z6sr6d4s) {
+  utterance ("[g:ResultInfo] (을지로 4가)[v:Station] (5호선)[v:Line] 전철 언제오니?")
+  plan (Y2BhkC4uTSpPrNSDUECgF5RaXJpT4pmXls8giSFZnJFfHpKZm8ogiiHlk5mXyiCBIRxckliSmZ/HwMzAyMAEJBmANAhCAIgPFgUA)
+  last-modified (1561341159013)
+}
+train (t-du7jbsp89y5o1v1g21npxxhkt) {
+  utterance ("[g:ResultInfo] (1호선)[v:Line] (의정부북부)[v:Station]")
+  plan (Y2BhkC4uTSpPrNSDUECgF5RaXJpT4pmXls8giSFZnJFfHpKZm8ogiiHlk5mXyiCBIRxckliSmZ/HwMzAyMAEJBmANAhCAIgPFgUA)
+  last-modified (1561341841877)
+}

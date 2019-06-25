@@ -1,0 +1,5 @@
+train (t-4o8abb9t63eiq3ythafxa68bh) {
+  utterance ("[g:ResultInfo] (이수)[v:Station] (4호선)[v:Line]")
+  plan (Y2BhkC4uTSpPrNSDUECgF5RaXJpT4pmXls8giSFZnJFfHpKZm8ogiiHlk5mXyiCBIRxckliSmZ/HwMzAyMAEJBmANAhCAIgPFgUA)
+  last-modified (1561357285801)
+}
